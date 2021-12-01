@@ -11,7 +11,9 @@ class ArticleController extends Controller
 
     public function index(){
         $article = Article::all();
-        return view('index',compact('article'));
+
+        $page_tile = "INDEX ARTICLE";
+        return view('index',compact('article','page_tile'));
 
     }
 }
