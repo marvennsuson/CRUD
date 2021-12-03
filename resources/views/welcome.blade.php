@@ -85,7 +85,7 @@
                 </div>
 
                 <div class="links">
-                    <a href="{{ route('article.index') }}"> LIST OF ARTICLE</a>
+                    <a href="{{ route('article.index') }}"> Index Page</a>
 
                 </div>
             </div>
